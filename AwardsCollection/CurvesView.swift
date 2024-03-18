@@ -81,7 +81,6 @@ struct CurvesView: View {
                 path.closeSubpath()
             }
             .stroke(.red, lineWidth: 2)
-            
         }
     }
 }

@@ -19,6 +19,7 @@ struct GradientRectangles: View {
                             endPoint: .topTrailing
                         )
                     )
+                    .clipShape(.rect(cornerRadius: 20))
                     .rotationEffect(.degrees(Double(iteration) * 60))
                     .scaleEffect(0.7)
             }
