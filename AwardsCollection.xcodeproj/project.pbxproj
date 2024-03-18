@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		CDB694CB2BA8258B008F9503 /* AwardsCollectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694CA2BA8258B008F9503 /* AwardsCollectionApp.swift */; };
-		CDB694CD2BA8258B008F9503 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694CC2BA8258B008F9503 /* ContentView.swift */; };
+		CDB694CD2BA8258B008F9503 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694CC2BA8258B008F9503 /* MainView.swift */; };
 		CDB694CF2BA8258C008F9503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB694CE2BA8258C008F9503 /* Assets.xcassets */; };
 		CDB694D22BA8258C008F9503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB694D12BA8258C008F9503 /* Preview Assets.xcassets */; };
+		CDB694D92BA825D6008F9503 /* CartRacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694D82BA825D6008F9503 /* CartRacingView.swift */; };
+		CDB694DB2BA825E1008F9503 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694DA2BA825E1008F9503 /* AwardsView.swift */; };
+		CDB694DD2BA825F1008F9503 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694DC2BA825F1008F9503 /* GradientRectangles.swift */; };
+		CDB694DF2BA825FC008F9503 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694DE2BA825FC008F9503 /* PathView.swift */; };
+		CDB694E12BA82610008F9503 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694E02BA82610008F9503 /* CurvesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CDB694C72BA8258B008F9503 /* AwardsCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardsCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB694CA2BA8258B008F9503 /* AwardsCollectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionApp.swift; sourceTree = "<group>"; };
-		CDB694CC2BA8258B008F9503 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDB694CC2BA8258B008F9503 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CDB694CE2BA8258C008F9503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB694D12BA8258C008F9503 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDB694D82BA825D6008F9503 /* CartRacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRacingView.swift; sourceTree = "<group>"; };
+		CDB694DA2BA825E1008F9503 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		CDB694DC2BA825F1008F9503 /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		CDB694DE2BA825FC008F9503 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		CDB694E02BA82610008F9503 /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				CDB694CA2BA8258B008F9503 /* AwardsCollectionApp.swift */,
-				CDB694CC2BA8258B008F9503 /* ContentView.swift */,
+				CDB694CC2BA8258B008F9503 /* MainView.swift */,
+				CDB694D82BA825D6008F9503 /* CartRacingView.swift */,
+				CDB694DA2BA825E1008F9503 /* AwardsView.swift */,
+				CDB694DC2BA825F1008F9503 /* GradientRectangles.swift */,
+				CDB694DE2BA825FC008F9503 /* PathView.swift */,
+				CDB694E02BA82610008F9503 /* CurvesView.swift */,
 				CDB694CE2BA8258C008F9503 /* Assets.xcassets */,
 				CDB694D02BA8258C008F9503 /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB694CD2BA8258B008F9503 /* ContentView.swift in Sources */,
+				CDB694DB2BA825E1008F9503 /* AwardsView.swift in Sources */,
+				CDB694E12BA82610008F9503 /* CurvesView.swift in Sources */,
+				CDB694DF2BA825FC008F9503 /* PathView.swift in Sources */,
+				CDB694DD2BA825F1008F9503 /* GradientRectangles.swift in Sources */,
+				CDB694CD2BA8258B008F9503 /* MainView.swift in Sources */,
 				CDB694CB2BA8258B008F9503 /* AwardsCollectionApp.swift in Sources */,
+				CDB694D92BA825D6008F9503 /* CartRacingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +295,12 @@
 				DEVELOPMENT_TEAM = V3YK82Q5NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Awards Collection";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +308,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = broski43.AwardsCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,11 +329,12 @@
 				DEVELOPMENT_TEAM = V3YK82Q5NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Awards Collection";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +342,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = broski43.AwardsCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
