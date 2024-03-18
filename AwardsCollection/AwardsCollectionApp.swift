@@ -11,7 +11,7 @@ import SwiftUI
 struct AwardsCollectionApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            StarterView()
         }
     }
 }
