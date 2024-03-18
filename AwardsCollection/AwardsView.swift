@@ -12,11 +12,18 @@ struct AwardsView: View {
         NavigationStack {
             VStack {
                 ScrollView {
+                    GradientRectangles()
+                        .frame(width: 200, height: 200)
                     
+                    PathView()
+                        .frame(width: 200, height: 200)
+                    
+                    CurvesView()
+                        .frame(width: 200, height: 200)
                 }
             }
+            .navigationTitle("Awards")
         }
-        .navigationTitle("Awards")
     }
 }
 
