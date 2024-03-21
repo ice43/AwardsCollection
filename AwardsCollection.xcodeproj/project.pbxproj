@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD26585E2BAC6C09007C7F54 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD26585A2BAC6C09007C7F54 /* GradientRectangles.swift */; };
-		CD26585F2BAC6C09007C7F54 /* HypocycloidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD26585B2BAC6C09007C7F54 /* HypocycloidView.swift */; };
-		CD2658602BAC6C09007C7F54 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD26585C2BAC6C09007C7F54 /* CurvesView.swift */; };
-		CD2658612BAC6C09007C7F54 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD26585D2BAC6C09007C7F54 /* PathView.swift */; };
-		CD2658632BAC6C93007C7F54 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2658622BAC6C93007C7F54 /* Award.swift */; };
+		CD2658692BAC6EB6007C7F54 /* HypocycloidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2658642BAC6EB6007C7F54 /* HypocycloidView.swift */; };
+		CD26586A2BAC6EB6007C7F54 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2658652BAC6EB6007C7F54 /* PathView.swift */; };
+		CD26586B2BAC6EB6007C7F54 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2658662BAC6EB6007C7F54 /* GradientRectangles.swift */; };
+		CD26586C2BAC6EB6007C7F54 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2658672BAC6EB6007C7F54 /* CurvesView.swift */; };
+		CD26586D2BAC6EB6007C7F54 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2658682BAC6EB6007C7F54 /* Award.swift */; };
 		CDB694CB2BA8258B008F9503 /* AwardsCollectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694CA2BA8258B008F9503 /* AwardsCollectionApp.swift */; };
 		CDB694CD2BA8258B008F9503 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694CC2BA8258B008F9503 /* MainView.swift */; };
 		CDB694CF2BA8258C008F9503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB694CE2BA8258C008F9503 /* Assets.xcassets */; };
@@ -22,11 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD26585A2BAC6C09007C7F54 /* GradientRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
-		CD26585B2BAC6C09007C7F54 /* HypocycloidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypocycloidView.swift; sourceTree = "<group>"; };
-		CD26585C2BAC6C09007C7F54 /* CurvesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
-		CD26585D2BAC6C09007C7F54 /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
-		CD2658622BAC6C93007C7F54 /* Award.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		CD2658642BAC6EB6007C7F54 /* HypocycloidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypocycloidView.swift; sourceTree = "<group>"; };
+		CD2658652BAC6EB6007C7F54 /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		CD2658662BAC6EB6007C7F54 /* GradientRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		CD2658672BAC6EB6007C7F54 /* CurvesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		CD2658682BAC6EB6007C7F54 /* Award.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		CDB694C72BA8258B008F9503 /* AwardsCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardsCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB694CA2BA8258B008F9503 /* AwardsCollectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionApp.swift; sourceTree = "<group>"; };
 		CDB694CC2BA8258B008F9503 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -51,11 +51,11 @@
 		CD2658592BAC6C09007C7F54 /* Awards */ = {
 			isa = PBXGroup;
 			children = (
-				CD2658622BAC6C93007C7F54 /* Award.swift */,
-				CD26585A2BAC6C09007C7F54 /* GradientRectangles.swift */,
-				CD26585B2BAC6C09007C7F54 /* HypocycloidView.swift */,
-				CD26585C2BAC6C09007C7F54 /* CurvesView.swift */,
-				CD26585D2BAC6C09007C7F54 /* PathView.swift */,
+				CD2658682BAC6EB6007C7F54 /* Award.swift */,
+				CD2658672BAC6EB6007C7F54 /* CurvesView.swift */,
+				CD2658662BAC6EB6007C7F54 /* GradientRectangles.swift */,
+				CD2658642BAC6EB6007C7F54 /* HypocycloidView.swift */,
+				CD2658652BAC6EB6007C7F54 /* PathView.swift */,
 			);
 			name = Awards;
 			path = ../../../../../../../../Downloads/AwardsCollectionApp/AwardsCollectionApp/Awards;
@@ -170,16 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2658692BAC6EB6007C7F54 /* HypocycloidView.swift in Sources */,
+				CD26586B2BAC6EB6007C7F54 /* GradientRectangles.swift in Sources */,
 				CDB694DB2BA825E1008F9503 /* AwardsView.swift in Sources */,
-				CD2658612BAC6C09007C7F54 /* PathView.swift in Sources */,
-				CD26585F2BAC6C09007C7F54 /* HypocycloidView.swift in Sources */,
-				CD2658632BAC6C93007C7F54 /* Award.swift in Sources */,
+				CD26586D2BAC6EB6007C7F54 /* Award.swift in Sources */,
 				CDB694E32BA86DC9008F9503 /* StarterView.swift in Sources */,
-				CD26585E2BAC6C09007C7F54 /* GradientRectangles.swift in Sources */,
+				CD26586A2BAC6EB6007C7F54 /* PathView.swift in Sources */,
 				CDB694CD2BA8258B008F9503 /* MainView.swift in Sources */,
+				CD26586C2BAC6EB6007C7F54 /* CurvesView.swift in Sources */,
 				CDB694CB2BA8258B008F9503 /* AwardsCollectionApp.swift in Sources */,
 				CDB694D92BA825D6008F9503 /* CartRacingView.swift in Sources */,
-				CD2658602BAC6C09007C7F54 /* CurvesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
