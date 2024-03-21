@@ -8,18 +8,19 @@
 import SwiftUI
 
 struct AwardsView: View {
+    private let awards = Award.awards.filter { $0.awarded }
+    private let columns = [GridItem(.adaptive(minimum: 160, maximum: 200))]
+    
     var body: some View {
         NavigationStack {
-            VStack {
-                ScrollView {
-                    GradientRectangles()
-                        .frame(width: 200, height: 200)
-                    
-                    PathView()
-                        .frame(width: 200, height: 200)
-                    
-                    CurvesView()
-                        .frame(width: 200, height: 200)
+            ScrollView {
+                LazyVGrid(columns: columns) {
+                    ForEach(awards, id: \.title) { award in
+                        VStack {
+                            award.awardView
+                            Text(award.title)
+                        }
+                    }
                 }
             }
             .navigationTitle("Awards")
