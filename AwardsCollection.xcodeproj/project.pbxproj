@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD2658692BAC6EB6007C7F54 /* HypocycloidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2658642BAC6EB6007C7F54 /* HypocycloidView.swift */; };
-		CD26586A2BAC6EB6007C7F54 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2658652BAC6EB6007C7F54 /* PathView.swift */; };
-		CD26586B2BAC6EB6007C7F54 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2658662BAC6EB6007C7F54 /* GradientRectangles.swift */; };
-		CD26586C2BAC6EB6007C7F54 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2658672BAC6EB6007C7F54 /* CurvesView.swift */; };
-		CD26586D2BAC6EB6007C7F54 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2658682BAC6EB6007C7F54 /* Award.swift */; };
 		CDB694CB2BA8258B008F9503 /* AwardsCollectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694CA2BA8258B008F9503 /* AwardsCollectionApp.swift */; };
 		CDB694CD2BA8258B008F9503 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694CC2BA8258B008F9503 /* MainView.swift */; };
 		CDB694CF2BA8258C008F9503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB694CE2BA8258C008F9503 /* Assets.xcassets */; };
@@ -19,14 +14,14 @@
 		CDB694D92BA825D6008F9503 /* CartRacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694D82BA825D6008F9503 /* CartRacingView.swift */; };
 		CDB694DB2BA825E1008F9503 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694DA2BA825E1008F9503 /* AwardsView.swift */; };
 		CDB694E32BA86DC9008F9503 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB694E22BA86DC9008F9503 /* StarterView.swift */; };
+		CDF0B0E32BB9AF870065A477 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0B0E22BB9AF870065A477 /* Award.swift */; };
+		CDF0B0E52BB9AFB90065A477 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0B0E42BB9AFB90065A477 /* GradientRectangles.swift */; };
+		CDF0B0E72BB9AFC40065A477 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0B0E62BB9AFC40065A477 /* PathView.swift */; };
+		CDF0B0E92BB9AFCC0065A477 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0B0E82BB9AFCC0065A477 /* CurvesView.swift */; };
+		CDF0B0EB2BB9AFD20065A477 /* HypocycloidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0B0EA2BB9AFD20065A477 /* HypocycloidView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD2658642BAC6EB6007C7F54 /* HypocycloidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypocycloidView.swift; sourceTree = "<group>"; };
-		CD2658652BAC6EB6007C7F54 /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
-		CD2658662BAC6EB6007C7F54 /* GradientRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
-		CD2658672BAC6EB6007C7F54 /* CurvesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
-		CD2658682BAC6EB6007C7F54 /* Award.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		CDB694C72BA8258B008F9503 /* AwardsCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardsCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB694CA2BA8258B008F9503 /* AwardsCollectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionApp.swift; sourceTree = "<group>"; };
 		CDB694CC2BA8258B008F9503 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -35,6 +30,11 @@
 		CDB694D82BA825D6008F9503 /* CartRacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRacingView.swift; sourceTree = "<group>"; };
 		CDB694DA2BA825E1008F9503 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		CDB694E22BA86DC9008F9503 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		CDF0B0E22BB9AF870065A477 /* Award.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		CDF0B0E42BB9AFB90065A477 /* GradientRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		CDF0B0E62BB9AFC40065A477 /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		CDF0B0E82BB9AFCC0065A477 /* CurvesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		CDF0B0EA2BB9AFD20065A477 /* HypocycloidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypocycloidView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,19 +48,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD2658592BAC6C09007C7F54 /* Awards */ = {
-			isa = PBXGroup;
-			children = (
-				CD2658682BAC6EB6007C7F54 /* Award.swift */,
-				CD2658672BAC6EB6007C7F54 /* CurvesView.swift */,
-				CD2658662BAC6EB6007C7F54 /* GradientRectangles.swift */,
-				CD2658642BAC6EB6007C7F54 /* HypocycloidView.swift */,
-				CD2658652BAC6EB6007C7F54 /* PathView.swift */,
-			);
-			name = Awards;
-			path = ../../../../../../../../Downloads/AwardsCollectionApp/AwardsCollectionApp/Awards;
-			sourceTree = "<group>";
-		};
 		CDB694BE2BA8258B008F9503 = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +72,7 @@
 				CDB694CC2BA8258B008F9503 /* MainView.swift */,
 				CDB694D82BA825D6008F9503 /* CartRacingView.swift */,
 				CDB694DA2BA825E1008F9503 /* AwardsView.swift */,
-				CD2658592BAC6C09007C7F54 /* Awards */,
+				CDF0B0E12BB9AF630065A477 /* Award */,
 				CDB694CE2BA8258C008F9503 /* Assets.xcassets */,
 				CDB694D02BA8258C008F9503 /* Preview Content */,
 			);
@@ -98,6 +85,18 @@
 				CDB694D12BA8258C008F9503 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDF0B0E12BB9AF630065A477 /* Award */ = {
+			isa = PBXGroup;
+			children = (
+				CDF0B0E22BB9AF870065A477 /* Award.swift */,
+				CDF0B0E82BB9AFCC0065A477 /* CurvesView.swift */,
+				CDF0B0E42BB9AFB90065A477 /* GradientRectangles.swift */,
+				CDF0B0EA2BB9AFD20065A477 /* HypocycloidView.swift */,
+				CDF0B0E62BB9AFC40065A477 /* PathView.swift */,
+			);
+			path = Award;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,14 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2658692BAC6EB6007C7F54 /* HypocycloidView.swift in Sources */,
-				CD26586B2BAC6EB6007C7F54 /* GradientRectangles.swift in Sources */,
 				CDB694DB2BA825E1008F9503 /* AwardsView.swift in Sources */,
-				CD26586D2BAC6EB6007C7F54 /* Award.swift in Sources */,
+				CDF0B0E32BB9AF870065A477 /* Award.swift in Sources */,
+				CDF0B0E72BB9AFC40065A477 /* PathView.swift in Sources */,
+				CDF0B0E52BB9AFB90065A477 /* GradientRectangles.swift in Sources */,
 				CDB694E32BA86DC9008F9503 /* StarterView.swift in Sources */,
-				CD26586A2BAC6EB6007C7F54 /* PathView.swift in Sources */,
+				CDF0B0E92BB9AFCC0065A477 /* CurvesView.swift in Sources */,
+				CDF0B0EB2BB9AFD20065A477 /* HypocycloidView.swift in Sources */,
 				CDB694CD2BA8258B008F9503 /* MainView.swift in Sources */,
-				CD26586C2BAC6EB6007C7F54 /* CurvesView.swift in Sources */,
 				CDB694CB2BA8258B008F9503 /* AwardsCollectionApp.swift in Sources */,
 				CDB694D92BA825D6008F9503 /* CartRacingView.swift in Sources */,
 			);
